@@ -1,0 +1,44 @@
+variable,lower,median,upper,distribution,label,description
+cocoa_bean_co,20000,,50000,posnorm,Investment cost (Fcfa/Acre),Initial investment cost
+tran_cost_co,20000,,30000,posnorm,Investment cost (Fcfa/Acre),Initial investment cost
+fertiliser_cost_co,35000,,100000,posnorm,Investment cost (Fcfa/Acre),Initial investment cost
+labor_co,35000,,50000,posnorm,Recurring Operational Costs (Fcfa/Acre),Recurring Operational Costs
+farm_man_co,75000,,110000,posnorm,Recurring Operational Costs (Fcfa/Acre),Recurring Operational Costs
+farm_inst_cp,120000,,230000,posnorm,Recurring Operational Costs (Fcfa/Acre),Recurring Operational Costs
+mat_eq_cp,60000,,1490000,posnorm,Recurring Operational Costs (Fcfa/Acre),Recurring Operational Costs
+water_prov_cp,60000,,100000,posnorm,Recurring Operational Costs (Fcfa/Acre),Recurring Operational Costs
+husk_cp,15000,,20000,posnorm,Recurring Operational Costs (Fcfa/Acre),Recurring Operational Costs
+pig_feed_cp,209000,,850000,posnorm,Recurring Operational Costs (Fcfa/Acre),Recurring Operational Costs
+tran_cost_cp,30000,,40000,posnorm,Recurring Operational Costs (Fcfa/Acre),Recurring Operational Costs
+biof_cp,1000,,5000,posnorm,Recurring Operational Costs (Fcfa/Acre),Recurring Operational Costs
+biop_cp,1000,,5000,posnorm,Yield (Kg/Acre),Benefits
+veter_cost_cp,20000,,60000,posnorm,Yield (Kg/Acre),Benefits
+shared_lab_cp,40000,,60000,posnorm,Yield (Kg/Acre),Benefits
+cocoa_bean_cp,0.1,,0.3,tnorm_0_1,Market Fluctuation (%),Risk
+dry_year_co_d,0.08,,0.09,tnorm_0_1,Probability(%) for Maize yield,Risk
+dry_year_co_e,0.25,,0.5,posnorm,Impact on Maize Yield(%),Risk
+heavy_rain_co_d,0.2,,0.4,posnorm,Impact (%) for  Cowpeayield,Risk
+heavy_rain_co_e,0.06,,0.08,tnorm_0_1,Probability(%) for Cowpea yield,Risk
+draught_co_d,0.15,,0.35,posnorm,Impact (%) for Yellow Beans yield,Risk
+draught_co_e,0.05,,0.07,tnorm_0_1,Probability(%) for Yellow Beansyield,Risk
+pest_co_d,0.4,,0.7,posnorm,Impact of Climate on Maize Yield(%),Risk
+pest_co_e,0.08,,0.09,tnorm_0_1,Probability(%) for Climate on Maize  yield,Risk
+theft_cp_d,0.25,,0.5,posnorm,Impact of Climate on Cowpea Yield(%),Risk
+theft_cp_e,0.07,,0.09,tnorm_0_1,Probability(%) for Climate on Cowpea  yield,Risk
+pest_cp_d,0.08,,0.09,tnorm_0_1,Probability(%) for Climate on Yelow Beans  yield,Risk
+pest_cp_e,0.3,,0.55,posnorm,Impact of Climate on Yellow Beans  Yield(%),Risk
+dry_year_cp_d,0.25,,0.5,posnorm,Impact of Climate on Cowpea Yield(%),Risk
+dry_year_cp_e,0.07,,0.09,tnorm_0_1,Probability(%) for Climate on Cowpea  yield,Risk
+heavy_rain_cp_d,0.08,,0.09,tnorm_0_1,Probability(%) for Climate on Yelow Beans  yield,Risk
+heavy_rain_cp_e,0.3,,0.55,posnorm,Impact of Climate on Yellow Beans  Yield(%),Risk
+draught_cp_d,0.08,,0.09,tnorm_0_1,Probability(%) for Climate on Yelow Beans  yield,Risk
+draught_cp_e,0.3,,0.55,posnorm,Impact of Climate on Yellow Beans  Yield(%),Risk
+Coco_Yield_co,400,,3500,posnorm,Yield (Kg/Acre),Benefits
+Coco_Yield_cp,500,,4000,posnorm,Yield (Kg/Acre),Benefits
+Pig_Yield_cp,4,,20,posnorm,Yield (Kg/Acre),Benefits
+Coco_Price_co,950,,6300,posnorm,Price (USD/Kg),Crop price
+Coco_Price_cp,1100,,6500,posnorm,Price (Fcfa/Kg),Crop price
+pig_Price_cp,1800,,2500,posnorm,Price (Fcfa/Kg),Crop price
+var_CV,0.1,,0.3,tnorm_0_1,CoE,
+n_years,5,,5,const,number of years,
+discount_rate,9.75,,10.5,posnorm,discount rate,
