@@ -176,7 +176,7 @@ model_function <- function(x, varnames) {
 
 # Run a single Monte Carlo simulation for both scenarios
 combined_simulation <- mcSimulation(
-  estimate = estimate_read_csv("PC.csv"),
+  estimate = estimate_read_csv("C:/Users/willy/Desktop/COCAPIG/fsdfg/PC.csv"),
   model_function    = model_function,
   numberOfModelRuns = 10000,
   functionSyntax    = "plainNames" )
